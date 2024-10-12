@@ -5,8 +5,8 @@ import path from "path"
 import say from "say"
 import textToSpeech from'@google-cloud/text-to-speech'
 import util from'util';
-
-
+import dotenv from "dotenv"
+dotenv.config()
 
 const __dirname = path.resolve();
 
@@ -28,7 +28,7 @@ const model=new ChatOpenAI({
     model:"gpt-3.5-turbo",
     temperature:0.7,
     verbose:false,
-    openAIApiKey:"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"
+    openAIApiKey:process.env.OPENAI_KEY
 })
 
 
