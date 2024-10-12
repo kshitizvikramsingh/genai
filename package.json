@@ -1,0 +1,20 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kshitiz Vikram Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.5.0",
+    "@langchain/openai": "^0.2.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "langchain": "^0.2.16",
+    "say": "^0.16.0"
+  }
+}

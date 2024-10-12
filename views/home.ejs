@@ -1,0 +1,60 @@
+<%- include("./partials/nav.ejs") %>
+
+<body>
+    <div class="container-md">
+    <h1 class="card">Gen AI for accessibility! ☀️</h1>
+
+
+  
+    <form class="form"method="POST", action="/">
+        <div class="row ">
+            <div class="col">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Enter your Query: </span>
+                    <input class="form-control" name="prompt"aria-label="With textarea">
+                  </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Enter the Language you want answer in: </span>
+                        <textarea class="form-control" name="lang"aria-label="With textarea"></textarea>
+                      </div>
+            </div>
+           
+        </div>  
+        <button class="btn btn-primary"type="submit" style="margin:20px">GO!</button>
+    </form>
+
+</div>
+    <hr>
+    <h1>Features</h1>
+    <div class="container-md">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h3> Native voice translation available for the answers, no matter the language</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h3>Get all the answers you need in a matter of seconds!</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h3>You may type in multi-lingual languages</h3>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <h4 style="margin:20px">Designed and Developed by Kshitiz Vikram Singh (theKCorp)</h4>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+     </div>
+</body>
+</html>
